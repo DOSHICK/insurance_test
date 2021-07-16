@@ -1,0 +1,67 @@
+/*   inform block   */
+.inform {
+    padding: 110px 0px 110px 0px;
+    background: $burger-bg;
+    .container-fluid{
+        .inform__title {
+            text-align: center;
+            color: #fff;
+        }
+        .inform__text {
+            margin: 10px auto 90px auto;
+        }
+        .inform__list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+            @media (max-width:1100px){
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin: -60px 0 0 0;
+            }
+            .inform__item {
+                padding: 18px 20px 18px 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                max-width: 330px;
+                max-height: 450px;
+
+                @media (max-width:1390px){
+                    width: 310px;
+                    height: 410px;
+                }
+                @media (max-width:1317px){
+                    width: 280px;
+                    height: 381px;
+                }
+                @media (max-width:1200px){
+                    width: 250px;
+                    height: 340px;
+                }
+                @media (max-width:1100px){
+                    margin: 30px 0px 0px 0px;
+                }
+                h4{
+                    margin: 15px 0px 15px 0px;
+                }
+                .inform__btn {
+                    max-width: 165px;
+                }
+            }
+            .inform__item_1 {
+                background: url('./src/img/industry_cover_1.jpg');
+            }
+            .inform__item_2{
+                background: url('./src/img/industry_cover_2.jpg');
+            }
+            .inform__item_3{
+                background: url('./src/img/industry_cover_3.jpg');
+            }
+            .inform__item_4{
+                background: url('./src/img/industry_cover_4.jpg');
+            }
+        }
+    }
+}

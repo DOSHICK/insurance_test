@@ -1,0 +1,16 @@
+.consult {
+    padding: 40px 0px 40px 0px;
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .consult__block {
+            h3{
+                margin: 0px 0px 10px 0px;
+            }
+        }
+        .consult__btn {
+        }
+    }
+}

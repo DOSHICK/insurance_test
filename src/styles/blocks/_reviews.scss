@@ -1,0 +1,65 @@
+.reviews {
+    padding: 110px 0px 150px 0px;
+    background: $reviews-bg;
+    height: 100%;
+
+    @media (max-width:1150px) {
+        padding: 110px 0px 100px 0px;
+    }
+}
+.reviews__title {
+}
+.reviews__text {
+
+}
+.reviews__list {
+    margin: 110px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	@media (max-width:1150px) {
+        flex-direction: column;
+        align-items: center;
+    }   
+	@media (max-width:1150px) {
+
+    }
+    .review {
+        background: #fff;
+        max-width: 450px;
+        padding: 30px 40px;
+        @media (max-width:1150px) {
+            margin: 0px 0px 50px 0px;
+        } 
+    }
+    .reviewer {
+        display: flex;
+        flex-direction: row;
+        margin: 0px 0px 0px -85px;
+        @media (max-width:580px) {
+            margin: 0px 0px 0px 0px;
+        } 
+        .rewiew__photo {
+            max-width: 72px;
+            max-height: 72px;
+            margin: 0px 15px 0px 0px;
+        }
+        .rewiewer__info {
+            .rewiewer__name {
+                color: $text-col;
+            }
+            .reviewer__position {
+            }
+        }
+    }
+    .stars {
+        margin: 1px 0px 15px 0px;
+    }
+    .rewiew__text {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: $sec-text-col;
+    }
+}
